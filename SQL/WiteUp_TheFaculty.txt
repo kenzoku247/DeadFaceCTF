@@ -1,0 +1,9 @@
+The Faculty
+
+Đọc sơ qua file sql, ta sẽ tìm thấy 1 dòng như sau: INSERT INTO `roles` VALUES (5,'Adjunct Professor'),(8,'Administration'),(4,'Associate Professor'),(2,'Instructor'),(3,'Professor'),(6,'Research Assistant'),(7,'Research Associate'),(1,'Student');
+
+
+Như trên tay thấy với role Student có id là 1, vậy ta sẽ grep ra những bản ghi có role là 1: cat esu.sql | grep '1,)'
+Có khá nhiều, nhưng tất cả các bản ghi cùng trên 1 dòng, nên ta sẽ đếm như sau: cat esu.sql | grep -o ',1)' | wc -l
+Có tất cả 1773 bản ghi
+Trước đó ta đã biết được có tất cả 2400 bản ghi, vậy có 627 bản ghi không phải là Student

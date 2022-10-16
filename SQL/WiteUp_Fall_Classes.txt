@@ -1,0 +1,8 @@
+Fall Classes
+
+Yêu cầu đặt ra là tìm số lượng các khoá học Mùa thu duy nhất 
+Từ file sql mình lọc ra được 1000 bản ghi được insert vào 'term_courses'
+Mình đã lấy dữ liệu từ (1,440,2,841) ... đến (1000,455,2,902) và lưu vào 1 file text gọi là values.txt
+Sau đó mình đã tạo ra 1 file python để lọc ra các bản ghi có term_id bằng 2 tức là giá trị thứ 3 trong 1 bản ghi bất kỳ bằng 2.
+Từ mảng đã lọc được tạo 1 mảng mới chứa các giá trị course_id với điều kiện giá trị này chưa gặp trước đây và lưu vào 1 mảng mới tên là unique_fall_classes.
+Cuối cùng thì đếm số lượng của mảng được 405. 

@@ -1,0 +1,3 @@
+Fine Dining
+Thử thách này khá dễ, tru cập vào trang https://ghosttown.deadface.io/
+Tìm kiếm từ khoá restaurant, phía cuối topic có 1 link ảnh, mở ra ta sẽ tìm thấy flag là flag{b1sh0p-pig-n_T4LL}

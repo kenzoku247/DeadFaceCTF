@@ -1,0 +1,7 @@
+Pandora's box
+Thử thách này khá là thú vị đối với mình
+Nó yêu cầu phải sử dụng rot13 để crack
+Đầu tiên nhìn vào ảnh ta có hai thông tin, một dãy số và một dãy kí tự không đúng
+Mình đã copy luôn đoạn ký tự vào rot13 để thử nhưng không được do thiếu mất dữ kiện dãy số
+Sau đó mình cũng dùng rot13 để đưa các ký tự khớp với các số về tất cả là 1, ta được dòng ký tự mới là epou mfu ifs pvu, và đảo chiều là tvo rfh ufm uope
+Chạy từ rot1 đến rot25 ta nhận được 4 chữ dont let her out

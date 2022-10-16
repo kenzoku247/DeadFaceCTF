@@ -1,0 +1,10 @@
+Đây là thử thách đầu tiên trong chuỗi thử thách Kỹ thật giấu tin.
+Chúng ta được cung cấp một file ảnh định dạng JPG (sử dụng lệnh file <tên file>)
+Kiểm tra thông tin qua về ảnh bằng cách sử dụng exiftool <tên file>
+thấy dung lượng file không quá lớn
+Tiếp đến kiểm tra ảnh bằng hexeditor <tên file>, sau một hồi lướt xuống tìm kiềm mình vẫn chưa thấy flag
+Với những tool mình biết thì chỉ còn lại strings để enumerate
+Sử dụng strings <tên file>, tại dòng cuối cùng phát hiện dòng text: password:borkbork. Chắc chắn nó dùng để mở 1 cái gì đó bị nén trong ảnh
+Tiếp đến mình có sử dụng binwalk nhưng nó không cho mình kết quả mong đợi.
+Sau một hồi research, mình có tìm lại được 1 tool mình đã từng dùng để extract file từ ảnh là steghide, cú pháp steghide --extract -sf <tên file> và nó yêu cầu mình nhập mật khẩu, giải nén ra được 1 file pdf, mở lên ta được flag: flag{whos_A_g00d_boi_bork_bork}
+

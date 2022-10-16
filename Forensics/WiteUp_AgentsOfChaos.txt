@@ -1,0 +1,4 @@
+Agents of Chaos
+Mở log 2cuhrtb9
+Từ trên xuống, ta thấy tool đầu tiên được dùng là nmap, cách một đoạn xuống dưới, tool thứ hai là Nikto/2.1.6
+Dòng đầu tiên User Agent là Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:Port Check)

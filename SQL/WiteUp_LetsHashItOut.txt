@@ -1,0 +1,4 @@
+Let's Hash It Out
+
+Từ thử thách trước, ta đã biết là Administrator có role là 8, tìm trong file với ',8)' ta được vị trí của user này là 1440
+Tìm kiếm 1440 ta sẽ thấy hash password là b487af41779cffb9572b982e1a0bf83f0eafbe05

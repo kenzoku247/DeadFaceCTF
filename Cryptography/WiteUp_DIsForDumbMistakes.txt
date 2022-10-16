@@ -1,0 +1,7 @@
+Thử thách "D" is for Dumb Mistakes
+
+Đây là thử thách sử dụng thuật toán RSA, thuật toán RSA cho 2 số nguyên tố p,q. n = p.q. e là một số ngẫu nhiên được chọn từ 1 đến phi của n. và số cần tìm là d. d sẽ nhân e và đồng dư với 1 mod phi của n.
+Hoặc mình đã viết một file python thủ công, có các hàm:
+	Phân tích n thành các số nguyên tố
+	Tìm phi của n thông qua các số nguyên tố vừa tìm được
+	Một vòng lặp for từ 1 đến phi n, tìm d sao cho d*e % phi(n) == 1

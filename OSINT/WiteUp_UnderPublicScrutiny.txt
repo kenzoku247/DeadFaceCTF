@@ -1,0 +1,2 @@
+Under Public Scrutiny
+Thử thách đầu tiên của OSINT yêu cầu chúng ta tìm một tài khoản github, sau khi lục lọi và search gihub trên trang https://ghosttown.deadface.io/, mình đã tìm được tên của một tài khoản github là deadf4c3, lên github tìm kiếm và nhận được flag flag{yAy_4_puBl1c_g1tHUB_rep0s}
